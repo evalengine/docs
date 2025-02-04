@@ -61,12 +61,18 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+      },
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Eval Engine',
         logo: {
           alt: 'Eval Engine Logo',
           src: 'img/Logo-black-no-bg.svg',
+          srcDark: 'img/Logo-white-no-bg.svg',
         },
         items: [
         ],
