@@ -2,46 +2,29 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Eval Engine
 
-Let's discover **Docusaurus in less than 5 minutes**.
+### Overview
 
-## Getting Started
+import Logo from '@site/static/img/Logo-black-no-bg.svg'
 
-Get started by **creating a new site**.
+<Logo title="Eval Engine" className="logo"  style={{width: "100%", height: 200, margin: 'auto'}} />
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Eval Engine is a decentralized framework for evaluating AI agents with a focus on crypto-native agents.&#x20;
 
-### What you'll need
+> Built on Chromia blockchain - a gas-free relational blockchain that enables seamless user experience without transaction fees.&#x20;
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+The system consists of three key components:
 
-## Generate a new site
+1. **Chromia Blockchain**: Acts as a transparent, immutable, gas-free database
+2. **Engine**: The evaluation service
+3. **Client**: The end user requesting evaluations
 
-Generate a new Docusaurus site using the **classic template**.
+### Think of it as a Distinguished Food Critic
 
-The classic template will automatically be added to your project after you run the command:
+<!-- <figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Eval Engine is like a Distinguished Food Critic</p></figcaption></figure> -->
+![Docusaurus logo](/assets/Distinguished_Food_Critic.png)
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+Eval Engine is like a World-Renowned Food Critic. While their evaluation criteria remain private, their final ratings and reviews are public and immutable. Eval Engine works similarly - it processes evaluations through multiple specialized models but records all results transparently on Chromia blockchain. Like a prestigious restaurant rating that can't be bought or manipulated, Eval Engine ensures evaluation integrity through blockchain technology.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
