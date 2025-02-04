@@ -78,7 +78,13 @@ const config = {
         ],
       },
       // algolia: {
+      //   // The application ID provided by Algolia
+      //   appId: 'YZCZ4LY52O',
+      //   // Public API key: it is safe to commit it
+      //   apiKey: '952efc2baeeb4c5cc734c57e3694edd3',
+      //   indexName: 'docs',
       //   contextualSearch: true,
+      //   searchParameters: {},
       // },
       // footer: {
       //   // style: 'dark',
