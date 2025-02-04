@@ -42,6 +42,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          showLastUpdateTime: true,
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -70,9 +71,9 @@ const config = {
         items: [
         ],
       },
-      algolia: {
-        contextualSearch: true,
-      },
+      // algolia: {
+      //   contextualSearch: true,
+      // },
       // footer: {
       //   // style: 'dark',
       //   links: [
