@@ -19,7 +19,7 @@ $EVAL is launched on **Virtual's launchpad**.
 
 ## 📊 Tokenomics
 
-![Token Distribution](/assets/token-distribution.png)
+![Token Distribution](/assets/token-distribution.jpeg)
 
 - **25%** - Liquidity Pool & Strategic Reserves  
 - **15%** - Ecosystem Treasury & Partnerships  
