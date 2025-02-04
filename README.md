@@ -1,41 +1,26 @@
-# Website
+---
+sidebar_position: 1
+---
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+# Eval Engine
 
-### Installation
+### Overview
 
-```
-$ yarn
-```
+Eval Engine is a decentralized framework for evaluating AI agents with a focus on crypto-native agents.&#x20;
 
-### Local Development
+> Built on Chromia blockchain - a gas-free relational blockchain that enables seamless user experience without transaction fees.&#x20;
 
-```
-$ yarn start
-```
+The system consists of three key components:
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+1. **Chromia Blockchain**: Acts as a transparent, immutable, gas-free database
+2. **Engine**: The evaluation service
+3. **Client**: The end user requesting evaluations
 
-### Build
+### Think of it as a Distinguished Food Critic
 
-```
-$ yarn build
-```
+<!-- <figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Eval Engine is like a Distinguished Food Critic</p></figcaption></figure> -->
+![Docusaurus logo](/assets/Distinguished_Food_Critic.png)
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Eval Engine is like a World-Renowned Food Critic. While their evaluation criteria remain private, their final ratings and reviews are public and immutable. Eval Engine works similarly - it processes evaluations through multiple specialized models but records all results transparently on Chromia blockchain. Like a prestigious restaurant rating that can't be bought or manipulated, Eval Engine ensures evaluation integrity through blockchain technology.
 
-### Deployment
 
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.

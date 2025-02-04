@@ -6,10 +6,6 @@ sidebar_position: 1
 
 ### Overview
 
-import Logo from '@site/static/img/Logo-black-no-bg.svg'
-
-<Logo title="Eval Engine" className="logo"  style={{width: "100%", height: 200, margin: 'auto'}} />
-
 Eval Engine is a decentralized framework for evaluating AI agents with a focus on crypto-native agents.&#x20;
 
 > Built on Chromia blockchain - a gas-free relational blockchain that enables seamless user experience without transaction fees.&#x20;
